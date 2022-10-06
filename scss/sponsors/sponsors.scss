@@ -1,0 +1,27 @@
+.sponsors-container {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+
+    h3 {
+        font-size: 13px;
+        text-align: center;
+        margin-top: 50px;
+        color: gray;
+    }
+
+    .sponsors {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        a {
+            padding: 10px;
+            img {
+                width: 165px;
+                height: 140px;object-fit: cover;
+                object-position: 0% 100%;
+            }
+        }
+    }
+}

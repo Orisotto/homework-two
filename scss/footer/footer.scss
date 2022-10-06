@@ -1,0 +1,87 @@
+.bipa-footer {
+    width: 75%;
+    height: 766px;
+    margin: 0 auto;
+    background-color: #8c9373;
+
+    .footer-container {
+        .footer-logo {
+            width: 400px;
+            height: 250px;
+            margin: 0 auto;
+            background-image: url(../images/deer-tm.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .footer-about {
+            width: 60%;
+            height: 75px;
+            margin: 0 auto;
+            font-size: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .tagline {
+            margin-top: 20px;
+            margin-bottom: 30px;
+            font-weight: bold;
+            text-align: center;
+            color: #a33d3d;
+        }
+
+        .footer-social {
+            width: 50%;
+            height: 30px;
+            margin: 0 auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-around;
+
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        .footer-lists {
+            width: 100%;
+            height: 250px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            .directory {
+                width: 236px;
+                height: 212px;
+                text-align: center;
+                font-size: 12px;
+                font-weight: bold;
+
+                ul {
+                    list-style-type: none;
+
+                    span {
+                        color: #a33d3d;
+                    }
+
+                    li {
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+
+        .copyright {
+            width: 75%;
+            height: 50px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+}

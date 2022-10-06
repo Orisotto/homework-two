@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #201c1c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 16px;
+}
+
+// Color Pallette
+// #a33d3d
+// #8c9373
+// #201c1c
+// #f8f4ec
+
+
+.site-container {
+    width: 100%;
+    margin: 0 auto;
+}

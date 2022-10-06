@@ -1,0 +1,116 @@
+.hero {
+  width: 75%;
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .ribbon-container {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 150px;
+
+    .ribbon {
+      width: 250px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      background-color: #201c1c;
+      color: #f8f4ec;
+
+      .title {
+        font-size: 30px;
+      }
+
+      .com {
+        position: absolute;
+        right: 25px;
+        bottom: 0;
+      }
+    }
+
+    .tails {
+      width: 30px;
+      height: 60px;
+
+      .triangle-one {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 30px 0 0 30px;
+        border-color: transparent transparent transparent #201c1c;
+      }
+      .triangle-two {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 30px 30px 0 0;
+        border-color: #201c1c transparent transparent transparent;
+      }
+    }
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    .callout {
+      width: 280px;
+      height: 30px;
+      display: flex;
+      justify-content: space-between;
+      color: #f8f4ec;
+
+      .bubble {
+        width: 24px;
+        height: 16px;
+        background-color: #888;
+        position: relative;
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .triangle {
+          width: 0;
+          height: 0;
+          bottom: -8px;
+          left: 5px;
+          border-style: solid;
+          border-width: 8px 8px 0 0;
+          border-color: #888 transparent transparent transparent;
+          position: absolute;
+        }
+      }
+    }
+
+    .title {
+      width: 450px;
+      height: 100px;
+      font-size: 44px;
+      text-align: center;
+      color: #f8f4ec;
+    }
+
+    .writer {
+      width: 200px;
+      height: 25px;
+      color: #f8f4ec;
+    }
+  }
+}
